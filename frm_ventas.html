@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuarios</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="form-admin">
+    <form method="post" action="ventas.php" enctype="multipart/form-data">
+        <div>
+            <input class="controls" type="text" id="Factura_Nro" name="Factura_Nro" placeholder="Numero de la factrura">
+            <input class="controls" type="Date" id="Fecha" name="Fecha" placeholder="Fecha">
+            <input class="controls" type="text" id="Id_Cliente" name="Id_Cliente" placeholder="Identificacion del cliente">
+            <input class="controls" type="text" id="Id_Bodega" name="Id_Bodega" placeholder="Identificacion de la Bodega">
+            <input class="controls" type="text" id="Neto" name="Neto" placeholder="Neto">
+            <input class="controls" type="text" id="IVA" name="IVA" placeholder="IVA">
+            <input class="controls" type="text" id="Forma_Pago" name="Forma_Pago" placeholder="Forma de Pago">
+        <input class="button" type="submit" value="Registrar">
+    </div>
+</section>
+    </form>
+</body>
+</html>
